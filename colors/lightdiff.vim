@@ -13,13 +13,13 @@ let g:colors_name="lightdiff"
 
 " General
 hi Normal       guifg=Black     guibg=Gainsboro     gui=none
-hi NonText      guifg=Blue                          gui=none
+hi NonText      guifg=Blue      guibg=NONE          gui=none
 hi LineNr       guifg=DarkGray  guibg=Gainsboro     gui=none
 hi VertSplit    guifg=Black     guibg=Black         gui=none
 hi Folded       guifg=Black     guibg=Orange        gui=none
 hi Cursor       guifg=White     guibg=Black         gui=none
-hi CursorLine                   guibg=Gray          gui=none
-hi CursorColumn                 guibg=Gray          gui=none
+hi CursorLine   guibg=NONE      guibg=Gray          gui=none
+hi CursorColumn guibg=NONE      guibg=Gray          gui=none
 hi MatchParen   guifg=White     guibg=Purple        gui=none
 hi Visual       guifg=White     guibg=Blue          gui=none
 hi Pmenu        guifg=Black     guibg=PaleGoldenrod gui=none
@@ -29,28 +29,28 @@ hi StatusLineNC guifg=White     guibg=Black         gui=none
 hi TabLine      guifg=White     guibg=Black         gui=none
 hi TabLineFill  guifg=White     guibg=Black         gui=none
 hi TabLineSel   guifg=White     guibg=MediumBlue    gui=none
-hi Title        guifg=DarkBlue                      gui=bold
-hi SpecialKey   guifg=DarkBlue                      gui=none
+hi Title        guifg=DarkBlue  guibg=NONE          gui=bold
+hi SpecialKey   guifg=DarkBlue  guibg=NONE          gui=none
 
 " Syntax
-hi Comment      guifg=DarkGray                      gui=italic
-hi Constant     guifg=FireBrick                     gui=none
-hi String       guifg=FireBrick                     gui=italic
-hi Identifier   guifg=DarkBlue                      gui=none
-hi Statement    guifg=SeaGreen                      gui=none
-hi PreProc      guifg=Peru                          gui=italic
-hi Type         guifg=DarkBlue                      gui=none
-hi Special      guifg=Peru                          gui=none
-hi Underlined   guifg=DarkBlue                      gui=underline
-hi Ignore       guifg=DarkBlue                      gui=none
+hi Comment      guifg=DarkGray  guibg=NONE          gui=italic
+hi Constant     guifg=FireBrick guibg=NONE          gui=none
+hi String       guifg=FireBrick guibg=NONE          gui=italic
+hi Identifier   guifg=DarkBlue  guibg=NONE          gui=none
+hi Statement    guifg=SeaGreen  guibg=NONE          gui=none
+hi PreProc      guifg=Peru      guibg=NONE          gui=italic
+hi Type         guifg=DarkBlue  guibg=NONE          gui=none
+hi Special      guifg=Peru      guibg=NONE          gui=none
+hi Underlined   guifg=DarkBlue  guibg=NONE          gui=underline
+hi Ignore       guifg=DarkBlue  guibg=NONE          gui=none
 hi Error        guifg=White     guibg=Red           gui=none
 hi Todo         guifg=Black     guibg=Yellow        gui=none
 
 " Vimdiff
-hi DiffAdd                      guibg=LightBlue     gui=none
-hi DiffChange                   guibg=LightGreen    gui=none
-hi DiffDelete                   guibg=LightRed      gui=none
+hi DiffAdd      guibg=NONE      guibg=LightBlue     gui=none
+hi DiffChange   guibg=NONE      guibg=LightGreen    gui=none
+hi DiffDelete   guibg=NONE      guibg=LightRed      gui=none
 
 " Commandline
 hi ErrorMsg     guifg=White     guibg=Red           gui=none
-hi WarningMsg   guifg=Black     guibg=Yellow        gui=none
+hi WarningMsg   guifg=Red       guibg=NONE          gui=none
