@@ -16,7 +16,7 @@ hi Normal       guifg=Black     guibg=Gainsboro     gui=none
 hi NonText      guifg=Blue      guibg=NONE          gui=none
 hi LineNr       guifg=DarkGray  guibg=Gainsboro     gui=none
 hi VertSplit    guifg=Black     guibg=Black         gui=none
-hi Folded       guifg=Black     guibg=Orange        gui=none
+hi Folded       guifg=Black     guibg=DarkGray      gui=none
 hi Cursor       guifg=White     guibg=Black         gui=none
 hi CursorLine   guibg=NONE      guibg=Gray          gui=none
 hi CursorColumn guibg=NONE      guibg=Gray          gui=none
