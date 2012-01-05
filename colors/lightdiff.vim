@@ -38,9 +38,9 @@ hi Constant     guifg=FireBrick guibg=NONE          gui=none
 hi String       guifg=FireBrick guibg=NONE          gui=none
 hi Identifier   guifg=DarkBlue  guibg=NONE          gui=none
 hi Statement    guifg=SeaGreen  guibg=NONE          gui=none
-hi PreProc      guifg=Peru      guibg=NONE          gui=none
+hi PreProc      guifg=DarkCyan  guibg=NONE          gui=none
 hi Type         guifg=DarkBlue  guibg=NONE          gui=none
-hi Special      guifg=Peru      guibg=NONE          gui=none
+hi Special      guifg=DarkCyan  guibg=NONE          gui=none
 hi Underlined   guifg=DarkBlue  guibg=NONE          gui=underline
 hi Ignore       guifg=DarkBlue  guibg=NONE          gui=none
 hi Error        guifg=White     guibg=Red           gui=none
