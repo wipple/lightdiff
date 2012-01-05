@@ -34,8 +34,8 @@ hi SpecialKey   guifg=DarkBlue  guibg=NONE          gui=none
 
 " Syntax
 hi Comment      guifg=DarkGray  guibg=NONE          gui=none
-hi Constant     guifg=FireBrick guibg=NONE          gui=none
-hi String       guifg=FireBrick guibg=NONE          gui=none
+hi Constant     guifg=DarkRed   guibg=NONE          gui=none
+hi String       guifg=DarkRed   guibg=NONE          gui=none
 hi Identifier   guifg=DarkBlue  guibg=NONE          gui=none
 hi Statement    guifg=SeaGreen  guibg=NONE          gui=none
 hi PreProc      guifg=DarkCyan  guibg=NONE          gui=none
